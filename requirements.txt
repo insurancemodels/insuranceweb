@@ -1,5 +1,5 @@
 numpy
 pandas
 joblib
-sklearn
 warnings
+streamlit

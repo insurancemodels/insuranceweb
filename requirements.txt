@@ -1,5 +1,5 @@
 numpy
 pandas
-joblib
+joblib==1.0.0
 warnings
 streamlit

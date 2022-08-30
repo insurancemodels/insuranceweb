@@ -13,9 +13,7 @@ import numpy as np
 
 import joblib
 
-import warnings
 import streamlit as st
-warnings.filterwarnings('ignore')
 
 st.title("Insurance Fraud Detection")
 

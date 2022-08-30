@@ -127,7 +127,7 @@ if st.button("Predict"):
     df["results"]=result
     download_csv = convert_df(df)
     st.download_button(
-         label="Download File with predictions",
+         label="Download file with predictions",
          data=download_csv,
          file_name='insurance_fraud_prediction.csv',
          mime='text/csv',

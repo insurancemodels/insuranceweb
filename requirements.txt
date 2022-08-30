@@ -2,4 +2,4 @@ numpy
 pandas
 joblib==1.0.0
 streamlit
-sklearn==0.24.1
+

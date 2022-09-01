@@ -21,7 +21,7 @@ def convert_df(df):
 
 st.title("Insurance Fraud Detection")
 
-test_file = st.file_uploader("Choose a test file", type=["csv","xlsx"])
+test_file = st.file_uploader("Choose an input file (insurance_claims.csv)", type=["csv","xlsx"])
 test_model=st.file_uploader("Choose model", type=["sav","plk"])
 
 

@@ -121,7 +121,7 @@ if st.button("Predict"):
     result=loaded_model.predict(X)
     result = pd.DataFrame(result, columns = ['results'])
     result["results"].replace(['Y', 'N'],
-                        ["Fraud Detected", "No Fraud"], inplace=True)
+                        ["Fraudulent", "Genuine"], inplace=True)
 
     st.write(result)
     df["results"]=result

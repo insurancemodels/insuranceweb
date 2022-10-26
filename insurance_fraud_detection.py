@@ -22,7 +22,7 @@ def convert_df(df):
 st.title("Insurance Fraud Detection")
 
 test_file = st.file_uploader("Choose an input file (insurance_claims)", type=["csv","xlsx"])
-test_model=st.file_uploader("Choose model", type=["sav","plk"])
+test_model=st.file_uploader("Choose model", type=["sav","plk","h5"])
 
 
 # If button is pressed
